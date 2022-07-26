@@ -1,0 +1,71 @@
+.app {
+  background-image: linear-gradient(to right, rgb(244, 248, 12), rgb(240, 187, 90));
+  width: 1000px;
+  height: 700px;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+  display: block;
+  justify-content: space-evenly;
+}
+
+.score-section {
+  display: flex;
+  font-size: 24px;
+  align-items: center;
+}
+
+.question-section {
+  width: 100%;
+  position: relative;
+}
+
+.question-count {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.question-count span {
+  font-size: 28px;
+}
+
+.question-text {
+  text-align: center;
+  margin-bottom: 12px;
+  font-size: 40px;
+}
+
+.answer-section {
+  width: 100%;
+  /* display: flex; */
+  /* display: block; */
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.answer-section button {
+  margin-top: 10px !important;
+  width: 100%;
+  font-size: 30px;
+  color: black;
+  background-image: linear-gradient(to right, rgb(244, 248, 12), rgb(240, 187, 90));
+  border-radius: 15px;
+  display: inline;
+  padding: 5px;
+  text-align: center;
+  border: 5px solid black;
+  cursor: pointer;
+}
+
+button:hover {
+  color: white;
+  background-image: linear-gradient(to left, rgb(244, 248, 12), rgb(240, 187, 90));
+}
+
+.corect {
+  background-image: linear-gradient(to right, rgb(107, 245, 14), rgb(176, 236, 136)) !important;
+}
+
+.incorect {
+  background-image: linear-gradient(to right, rgb(240, 42, 8), rgb(250, 95, 95)) !important;
+}

@@ -1,0 +1,30 @@
+.form > h2, .form > Form > div > Button, .form > div{
+    background-image: linear-gradient(to right, rgb(244, 248, 12), rgb(240, 187, 90));
+    text-align: center;
+    color: black;
+}
+
+.form > h2 {
+  font-size: 40px;
+}
+
+.form > Form > div > Button {
+  font-size: 35px;
+}
+
+.form > div {
+  font-size: 23px;
+}
+
+.buton Button{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-image: linear-gradient(to right, rgb(244, 248, 12), rgb(240, 187, 90));
+  text-align: center;
+  color: black;
+}
+
+.buton > Button:hover{
+    background-image: linear-gradient(to left, rgb(244, 248, 12), rgb(240, 187, 90));
+    color: white;
+} 
